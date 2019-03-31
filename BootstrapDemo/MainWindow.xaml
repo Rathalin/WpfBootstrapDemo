@@ -1,0 +1,52 @@
+﻿<Window x:Class="BootstrapDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BootstrapDemo"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Bootstrap Imitation for Buttons" Height="550" Width="800">
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0.8*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.ColumnSpan="8" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0">
+            <TextBlock Text="Button example:" FontSize="16" FontWeight="SemiBold" Margin="0 0 0 10"></TextBlock>
+            <TextBlock x:Name="TBl_BtnsExample" FontFamily="Consolas"></TextBlock>
+        </StackPanel>
+        <Button Content="Primary" Style="{StaticResource btn-primary}" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Secondary" Style="{StaticResource btn-secondary}" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Success" Style="{StaticResource btn-success}" Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Danger" Style="{StaticResource btn-danger}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Warning" Style="{StaticResource btn-warning}" Grid.Column="4" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Info" Style="{StaticResource btn-info}" Grid.Column="5" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Light" Style="{StaticResource btn-light}" Grid.Column="6" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Dark" Style="{StaticResource btn-dark}" Grid.Column="7" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <StackPanel Grid.ColumnSpan="8" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 0">
+            <TextBlock Text="Outline button example:" FontSize="16" FontWeight="SemiBold" Margin="0 0 0 10"></TextBlock>
+            <TextBlock x:Name="TBl_OutlBtnsExample" Grid.Row="2" FontFamily="Consolas"></TextBlock>
+        </StackPanel>
+        <Button Content="Primary" Style="{StaticResource btn-outline-primary}" Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Secondary" Style="{StaticResource btn-outline-secondary}" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Success" Style="{StaticResource btn-outline-success}" Grid.Column="2" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Danger" Style="{StaticResource btn-outline-danger}" Grid.Column="3" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Warning" Style="{StaticResource btn-outline-warning}" Grid.Column="4" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Info" Style="{StaticResource btn-outline-info}" Grid.Column="5" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Light" Style="{StaticResource btn-outline-light}" Grid.Column="6" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+        <Button Content="Dark" Style="{StaticResource btn-outline-dark}" Grid.Column="7" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+    </Grid>
+</Window>
