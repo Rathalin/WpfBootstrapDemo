@@ -8,7 +8,7 @@
         Title="Bootstrap Imitation for Buttons" Height="550" Width="800">
     <ScrollViewer>
         <StackPanel Orientation="Vertical">
-            <Grid Margin="20" Height="1100">
+            <Grid Margin="20" Height="1200">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>

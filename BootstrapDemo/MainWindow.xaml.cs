@@ -62,26 +62,7 @@ namespace BootstrapDemo
                 "</Border>" + "\n" +
                 "<Border Style=\"{StaticResource border-alert-dark}>" + "\n" +
                 "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-dark}\" Text=\"Alert dark\"></TextBlock>" + "\n" +
-                "</Border>" + "\n";
-
-            /*
-                
-                <Border Style="{StaticResource border-alert-danger}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="9">
-                    <TextBlock Style="{StaticResource textbox-alert-danger}" Text="Alert danger"></TextBlock>
-                </Border>
-                <Border Style="{StaticResource border-alert-warning}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="10">
-                    <TextBlock Style="{StaticResource textbox-alert-warning}" Text="Alert warning"></TextBlock>
-                </Border>
-                <Border Style="{StaticResource border-alert-info}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="11">
-                    <TextBlock Style="{StaticResource textbox-alert-info}" Text="Alert info"></TextBlock>
-                </Border>
-                <Border Style="{StaticResource border-alert-light}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="12">
-                    <TextBlock Style="{StaticResource textbox-alert-light}" Text="Alert light"></TextBlock>
-                </Border>
-                <Border Style="{StaticResource border-alert-dark}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="13">
-                    <TextBlock Style="{StaticResource textbox-alert-dark}" Text="Alert dark"></TextBlock>
-                </Border>
-                */
+                "</Border>";
         }
     }
 }
