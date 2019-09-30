@@ -39,6 +39,49 @@ namespace BootstrapDemo
                 "<Button Content=\"Info\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
                 "<Button Content=\"Light\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
                 "<Button Content=\"Dark\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n";
+            TBl_AlertsExample.Text = "<Border Style=\"{StaticResource border-alert-primary}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-primary}\" Text=\"Alert primary\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-secondary}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-secondary}\" Text=\"Alert secondary\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-success}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-success}\" Text=\"Alert success\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-danger}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-danger}\" Text=\"Alert danger\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-warning}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-warning}\" Text=\"Alert warning\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-info}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-info}\" Text=\"Alert info\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-light}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-light}\" Text=\"Alert light\"></TextBlock>" + "\n" +
+                "</Border>" + "\n" +
+                "<Border Style=\"{StaticResource border-alert-dark}>" + "\n" +
+                "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-dark}\" Text=\"Alert dark\"></TextBlock>" + "\n" +
+                "</Border>" + "\n";
+
+            /*
+                
+                <Border Style="{StaticResource border-alert-danger}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="9">
+                    <TextBlock Style="{StaticResource textbox-alert-danger}" Text="Alert danger"></TextBlock>
+                </Border>
+                <Border Style="{StaticResource border-alert-warning}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="10">
+                    <TextBlock Style="{StaticResource textbox-alert-warning}" Text="Alert warning"></TextBlock>
+                </Border>
+                <Border Style="{StaticResource border-alert-info}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="11">
+                    <TextBlock Style="{StaticResource textbox-alert-info}" Text="Alert info"></TextBlock>
+                </Border>
+                <Border Style="{StaticResource border-alert-light}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="12">
+                    <TextBlock Style="{StaticResource textbox-alert-light}" Text="Alert light"></TextBlock>
+                </Border>
+                <Border Style="{StaticResource border-alert-dark}" Margin="0 5 0 0" Grid.ColumnSpan="8" Grid.Row="13">
+                    <TextBlock Style="{StaticResource textbox-alert-dark}" Text="Alert dark"></TextBlock>
+                </Border>
+                */
         }
     }
 }
