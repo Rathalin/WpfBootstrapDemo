@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BootstrapDemo"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
-        Title="Bootstrap Imitation for Buttons" Height="550" Width="800">
+        Title="Bootstrap Imitation" Height="550" Width="800">
     <ScrollViewer>
         <StackPanel Orientation="Vertical">
             <Grid Margin="20" Height="1200">
