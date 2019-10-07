@@ -1,5 +1,5 @@
 # WPF Bootstrap Demo
-A Demo to demonstrate the usage of the Bootstrap imitation stylesheet.
+A demo to demonstrate the usage of the Bootstrap imitation stylesheet.
 
 ## Setup
 
