@@ -1,5 +1,26 @@
-# Wpf Bootstrap Demo
-Demo that uses the BootstrapImitation stylesheet
+# WPF Bootstrap Demo
+A Demo to demonstrate the usage of the Bootstrap imitation stylesheet.
+
+## Setup
+
+### Download 
+
+To use the Bootstrap-like styles download [BootstrapImitation.xaml](https://github.com/Rhatalin/WpfBootstrapDemo/blob/master/BootstrapDemo/BootstrapImitation.xaml).
+
+### Integration
+
+Add **BootstrapImitation.xaml** to your WPF project and go to **App.xaml**. The code below shows how you can integrate the stylesheet into your Resource Dictionary:
+
+```csharp
+<Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="BootstrapImitation.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+```
 
 ## Current Features
 
