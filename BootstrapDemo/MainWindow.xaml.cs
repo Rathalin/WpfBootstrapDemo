@@ -24,21 +24,23 @@ namespace BootstrapDemo
         {
             InitializeComponent();
             TBl_BtnsExample.Text = "<Button Content=\"Primary\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Secondary\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Success\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Danger\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Warning\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Info\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Light\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Dark\" Style=\"{StaticResource btn-primary}\"></Button>" + "\n";
+                "<Button Content=\"Secondary\" Style=\"{StaticResource btn-secondary}\"></Button>" + "\n" +
+                "<Button Content=\"Success\" Style=\"{StaticResource btn-success}\"></Button>" + "\n" +
+                "<Button Content=\"Danger\" Style=\"{StaticResource btn-danger}\"></Button>" + "\n" +
+                "<Button Content=\"Warning\" Style=\"{StaticResource btn-warning}\"></Button>" + "\n" +
+                "<Button Content=\"Info\" Style=\"{StaticResource btn-info}\"></Button>" + "\n" +
+                "<Button Content=\"Light\" Style=\"{StaticResource btn-light}\"></Button>" + "\n" +
+                "<Button Content=\"Dark\" Style=\"{StaticResource btn-dark}\"></Button>" + "\n";
+
             TBl_OutlBtnsExample.Text = "<Button Content=\"Primary\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Secondary\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Success\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Danger\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Warning\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Info\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Light\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n" +
-                "<Button Content=\"Dark\" Style=\"{StaticResource btn-outline-primary}\"></Button>" + "\n";
+                "<Button Content=\"Secondary\" Style=\"{StaticResource btn-outline-secondary}\"></Button>" + "\n" +
+                "<Button Content=\"Success\" Style=\"{StaticResource btn-outline-success}\"></Button>" + "\n" +
+                "<Button Content=\"Danger\" Style=\"{StaticResource btn-outline-danger}\"></Button>" + "\n" +
+                "<Button Content=\"Warning\" Style=\"{StaticResource btn-outline-warning}\"></Button>" + "\n" +
+                "<Button Content=\"Info\" Style=\"{StaticResource btn-outline-info}\"></Button>" + "\n" +
+                "<Button Content=\"Light\" Style=\"{StaticResource btn-outline-light}\"></Button>" + "\n" +
+                "<Button Content=\"Dark\" Style=\"{StaticResource btn-outline-dark}\"></Button>" + "\n";
+
             TBl_AlertsExample.Text = "<Border Style=\"{StaticResource border-alert-primary}>" + "\n" +
                 "\t" + "<TextBlock Style=\"{StaticResource textbox-alert-primary}\" Text=\"Alert primary\"></TextBlock>" + "\n" +
                 "</Border>" + "\n" +
